@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moolank100.local/schemas/moolank-profile.schema.json",
+  "title": "Moolank Foundation Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "profileId",
+    "number",
+    "status",
+    "title",
+    "calculation",
+    "coreIdentity",
+    "strengths",
+    "conditionalShadows",
+    "thinkingAndDecisions",
+    "emotionalStyle",
+    "communicationStyle",
+    "relationshipStyle",
+    "workAndCareer",
+    "moneyAndResources",
+    "stressResponse",
+    "growthNeeds",
+    "sadhanaThemes",
+    "evidence",
+    "safety",
+    "lastReviewed"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0" },
+    "profileId": { "type": "string", "pattern": "^M-[1-9]-FOUNDATION$" },
+    "number": { "type": "integer", "minimum": 1, "maximum": 9 },
+    "status": { "type": "string", "enum": ["draft", "reviewed", "canonical", "deprecated"] },
+    "title": { "type": "string", "minLength": 3 },
+    "calculation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule", "examples"],
+      "properties": {
+        "rule": { "type": "string" },
+        "examples": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      }
+    },
+    "coreIdentity": { "$ref": "#/$defs/section" },
+    "strengths": { "$ref": "#/$defs/stringList" },
+    "conditionalShadows": { "$ref": "#/$defs/conditionalPatternList" },
+    "thinkingAndDecisions": { "$ref": "#/$defs/domainSection" },
+    "emotionalStyle": { "$ref": "#/$defs/domainSection" },
+    "communicationStyle": { "$ref": "#/$defs/domainSection" },
+    "relationshipStyle": { "$ref": "#/$defs/domainSection" },
+    "workAndCareer": { "$ref": "#/$defs/domainSection" },
+    "moneyAndResources": { "$ref": "#/$defs/domainSection" },
+    "stressResponse": { "$ref": "#/$defs/domainSection" },
+    "growthNeeds": { "$ref": "#/$defs/stringList" },
+    "sadhanaThemes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["themeId", "title", "purpose", "practiceCategories"],
+        "properties": {
+          "themeId": { "type": "string" },
+          "title": { "type": "string" },
+          "purpose": { "type": "string" },
+          "practiceCategories": { "$ref": "#/$defs/stringList" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["traditionSupport", "scientificBirthNumberLink", "sourceNotes", "references"],
+      "properties": {
+        "traditionSupport": { "type": "string", "enum": ["weak", "weak-moderate", "moderate", "moderate-strong", "strong"] },
+        "scientificBirthNumberLink": { "type": "string", "const": "not-established" },
+        "sourceNotes": { "type": "string" },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["sourceType", "publisher", "title", "url", "usage"],
+            "properties": {
+              "sourceType": { "type": "string", "enum": ["numerology-tradition", "comparison", "psychology-boundary", "safety-guidance"] },
+              "publisher": { "type": "string" },
+              "title": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "usage": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["appDisclaimer", "prohibitedClaims", "questionnaireBoundary"],
+      "properties": {
+        "appDisclaimer": { "type": "string" },
+        "prohibitedClaims": { "$ref": "#/$defs/stringList" },
+        "questionnaireBoundary": { "type": "string" }
+      }
+    },
+    "lastReviewed": { "type": "string", "format": "date" }
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 3 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "balancedExpression"],
+      "properties": {
+        "summary": { "type": "string" },
+        "balancedExpression": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "conditionalPatternList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pattern", "possibleTriggers", "protectiveFactors"],
+        "properties": {
+          "pattern": { "type": "string" },
+          "possibleTriggers": { "$ref": "#/$defs/stringList" },
+          "protectiveFactors": { "$ref": "#/$defs/stringList" }
+        }
+      }
+    },
+    "domainSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["balanced", "underPressure", "growthSupports"],
+      "properties": {
+        "balanced": { "$ref": "#/$defs/stringList" },
+        "underPressure": { "$ref": "#/$defs/stringList" },
+        "growthSupports": { "$ref": "#/$defs/stringList" }
+      }
+    }
+  }
+}

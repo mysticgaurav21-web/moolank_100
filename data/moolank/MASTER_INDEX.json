@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "system": "moolank-foundation",
+  "status": "foundation-in-progress",
+  "calculation": {
+    "source": "day-of-birth-only",
+    "reduction": "reduce the birth day to one digit from 1 to 9",
+    "separateMasterNumbersEnabled": false
+  },
+  "profileSchema": "../../schemas/moolank-profile.schema.json",
+  "masterSpecification": "../../docs/MOOLANK_MASTER.md",
+  "deliveryOrder": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "profiles": [
+    { "number": 1, "profileId": "M-1-FOUNDATION", "path": "moolank-1.json", "status": "planned" },
+    { "number": 2, "profileId": "M-2-FOUNDATION", "path": "moolank-2.json", "status": "planned" },
+    { "number": 3, "profileId": "M-3-FOUNDATION", "path": "moolank-3.json", "status": "planned" },
+    { "number": 4, "profileId": "M-4-FOUNDATION", "path": "moolank-4.json", "status": "planned" },
+    { "number": 5, "profileId": "M-5-FOUNDATION", "path": "moolank-5.json", "status": "planned" },
+    { "number": 6, "profileId": "M-6-FOUNDATION", "path": "moolank-6.json", "status": "planned" },
+    { "number": 7, "profileId": "M-7-FOUNDATION", "path": "moolank-7.json", "status": "planned" },
+    { "number": 8, "profileId": "M-8-FOUNDATION", "path": "moolank-8.json", "status": "planned" },
+    { "number": 9, "profileId": "M-9-FOUNDATION", "path": "moolank-9.json", "status": "planned" }
+  ],
+  "requiredDomains": [
+    "coreIdentity",
+    "strengths",
+    "conditionalShadows",
+    "thinkingAndDecisions",
+    "emotionalStyle",
+    "communicationStyle",
+    "relationshipStyle",
+    "workAndCareer",
+    "moneyAndResources",
+    "stressResponse",
+    "growthNeeds",
+    "sadhanaThemes",
+    "evidence",
+    "safety"
+  ],
+  "scientificBirthNumberLink": "not-established",
+  "lastUpdated": "2026-07-14"
+}

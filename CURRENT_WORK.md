@@ -2,7 +2,7 @@
 
 **Project:** Moolank 100 canonical database  
 **Status:** Moolank foundation system active  
-**Current milestone:** M-FND-01 — Moolank Master System
+**Current milestone:** M-FND-03 — Moolank 2 Foundation Profile
 
 ## Product direction
 
@@ -35,45 +35,75 @@ schemas/moolank-profile.schema.json
 data/moolank/MASTER_INDEX.json
 ```
 
-## Active objective
+## Completed foundation profiles
 
-Build **Moolank 1 Foundation Profile** as one complete profile—not as a series of isolated micro-traits.
+### Moolank 1 — canonical
 
-Planned canonical path:
+Canonical path:
 
 ```text
 data/moolank/moolank-1.json
 ```
 
-Required coverage:
+Research path:
 
-- core identity
-- strengths
-- conditional shadows with triggers and protective factors
-- thinking and decisions
-- emotional style
-- communication
-- relationships
-- work and career
-- money and resources
-- stress response
-- growth needs
-- Sadhana themes
-- tradition evidence
-- scientific boundary
-- safety fields
+```text
+research/moolank-1/M1-R001-master-research-scope.md
+research/moolank-1/M1-R002-historical-foundations-and-calculation.md
+research/moolank-1/M1-R003-core-personality-architecture.md
+research/moolank-1/M1-R004-initiative-and-personal-agency.md
+research/moolank-1/M1-R005-independence-and-autonomy.md
+research/moolank-1/M1-R006-leadership-and-authority.md
+research/moolank-1/M1-R007-ambition-and-achievement.md
+research/moolank-1/M1-R008-confidence-pride-and-recognition.md
+research/moolank-1/M1-R009-decision-making-and-risk.md
+research/moolank-1/M1-R010-communication.md
+research/moolank-1/M1-R011-emotional-architecture.md
+research/moolank-1/M1-R012-stress-and-shadow-expressions.md
+research/moolank-1/M1-R013-relationships.md
+research/moolank-1/M1-R014-career-and-business.md
+research/moolank-1/M1-R015-money-and-resources.md
+research/moolank-1/M1-R016-compound-dates-1-10-19-28.md
+research/moolank-1/M1-R017-compatibility-1-to-9.md
+research/moolank-1/M1-R018-traditional-associations.md
+research/moolank-1/M1-R019-psychological-parallels.md
+research/moolank-1/M1-R020-safety-and-barnum-audit.md
+research/moolank-1/M1-R021-canonical-consolidation.md
+research/moolank-1/M1-R022-app-json-and-validation.md
+```
+
+Completion notes:
+
+- All shared schema domains populated.
+- Balanced, under-pressure and growth-support language included.
+- Conditional shadows include triggers and protective factors.
+- Tradition and psychology boundaries remain separate.
+- Scientific birth-number link remains `not-established`.
+- Medical, psychiatric, criminal, addiction and deterministic claims prohibited.
+- Compound dates preserved as tradition-only metadata.
+- Master index marks Moolank 1 as canonical.
+
+## Active objective
+
+Build **Moolank 2 Foundation Profile** as the next complete profile.
+
+Planned canonical path:
+
+```text
+data/moolank/moolank-2.json
+```
 
 ## Foundation sequence
 
-1. Moolank 1
-2. Moolank 2
-3. Moolank 3
-4. Moolank 4
-5. Moolank 5
-6. Moolank 6
-7. Moolank 7
-8. Moolank 8
-9. Moolank 9
+1. Moolank 1 — complete
+2. Moolank 2 — active
+3. Moolank 3 — planned
+4. Moolank 4 — planned
+5. Moolank 5 — planned
+6. Moolank 6 — planned
+7. Moolank 7 — planned
+8. Moolank 8 — planned
+9. Moolank 9 — planned
 
 ## Development rule
 

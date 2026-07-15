@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.0",
+  "profileId": "M-1-FOUNDATION",
+  "number": 1,
+  "status": "canonical",
+  "title": "Moolank 1 — Self-Direction, Initiative and Responsible Leadership",
+  "calculation": {
+    "rule": "Use the day of birth only and reduce it to one digit. Birth days 1, 10, 19 and 28 reduce to Moolank 1.",
+    "examples": ["1 → 1", "10 → 1 + 0 = 1", "19 → 1 + 9 = 10 → 1", "28 → 2 + 8 = 10 → 1"]
+  },
+  "coreIdentity": {
+    "summary": "Moolank 1 is a traditional reflection profile associated with self-direction, initiative, authorship, visible responsibility and the wish to create forward movement. These themes are possibilities rather than scientifically established personality predictions.",
+    "balancedExpression": [
+      "Begins useful action without waiting for excessive prompting",
+      "Forms independent judgments while remaining open to relevant evidence",
+      "Accepts ownership for choices, consequences and repair",
+      "Uses visibility and authority to create direction rather than superiority",
+      "Combines confidence with humility, collaboration and revision"
+    ]
+  },
+  "strengths": [
+    "Initiative and willingness to begin",
+    "Self-directed action and ownership",
+    "Independent judgment",
+    "Clarity of purpose",
+    "Constructive decisiveness",
+    "Originality and authorship",
+    "Persistence through meaningful difficulty",
+    "Capacity to take visible responsibility",
+    "Direct communication",
+    "Potential for responsible leadership"
+  ],
+  "conditionalShadows": [
+    {
+      "pattern": "May become controlling or overly directive when outcomes feel uncertain",
+      "possibleTriggers": ["Unclear authority", "Low trust", "Responsibility without decision rights", "Repeated delay or rework"],
+      "protectiveFactors": ["Explicit decision boundaries", "Consultation before commitment", "Delegation agreements", "Scheduled review points"]
+    },
+    {
+      "pattern": "May show impatience or premature action when progress feels too slow",
+      "possibleTriggers": ["Time pressure", "Slow group decisions", "Blocked goals", "Fear of appearing indecisive"],
+      "protectiveFactors": ["Reversibility checks", "Minimum information thresholds", "Decision pauses", "Clear milestones"]
+    },
+    {
+      "pattern": "May become defensive when contribution, competence or status feels publicly challenged",
+      "possibleTriggers": ["Public correction", "Unfair credit", "Visible failure", "Being ignored"],
+      "protectiveFactors": ["Specific private feedback", "Evidence-based self-review", "Self-compassion", "Reciprocal recognition"]
+    },
+    {
+      "pattern": "May rely on the self excessively and treat support as loss of autonomy",
+      "possibleTriggers": ["Micromanagement", "Past disappointment", "Dependency", "Fear of burdening others"],
+      "protectiveFactors": ["Help-compatible autonomy", "Trusted advisers", "Shared ownership", "Clear requests for support"]
+    },
+    {
+      "pattern": "May persist rigidly after conditions have changed",
+      "possibleTriggers": ["Sunk costs", "Public commitment", "Identity tied to success", "Competitive pressure"],
+      "protectiveFactors": ["Stop or revise criteria", "After-action reviews", "Independent feedback", "Values-based goal review"]
+    }
+  ],
+  "thinkingAndDecisions": {
+    "balanced": ["Defines the problem before choosing a solution", "Acts when decision-relevant information is sufficient", "Distinguishes reversible from irreversible choices", "Consults people who hold relevant information", "Revises decisions when evidence changes"],
+    "underPressure": ["May act mainly to end uncertainty", "May confuse speed with quality", "May underestimate downside or missing information", "May resist revision to protect authority"],
+    "growthSupports": ["Use a written decision protocol", "Identify facts that would change the choice", "Set downside limits", "Schedule review dates", "Invite a credible dissenting view"]
+  },
+  "emotionalStyle": {
+    "balanced": ["Uses emotions as information rather than commands", "Can express pride without superiority", "Names frustration and disappointment directly", "Seeks support while retaining agency", "Repairs after emotional impact"],
+    "underPressure": ["May become irritable when blocked", "May hide vulnerability behind work or control", "May experience public correction as identity threat", "May withdraw after visible failure"],
+    "growthSupports": ["Name the primary emotion beneath irritation", "Pause before responding", "Separate behaviour feedback from global self-worth", "Use recovery routines", "Make specific support requests"]
+  },
+  "communicationStyle": {
+    "balanced": ["Communicates directly and clearly", "States needs and boundaries respectfully", "Explains decisions and expectations", "Listens before solving", "Acknowledges impact and repairs misunderstanding"],
+    "underPressure": ["May sound commanding where a request is appropriate", "May interrupt or compress complexity", "May treat disagreement as obstruction", "May prioritize winning over understanding"],
+    "growthSupports": ["Summarize the other view before replying", "Ask whether listening, ideas or a decision is wanted", "Distinguish observation from interpretation", "Use explicit requests", "Share speaking time"]
+  },
+  "relationshipStyle": {
+    "balanced": ["Maintains individuality while investing in reciprocity", "Respects the other person's agency", "Communicates preferences rather than expecting compliance", "Offers practical support", "Participates in conflict repair"],
+    "underPressure": ["May over-direct shared decisions", "May interpret requests as control", "May avoid vulnerable dependence", "May compete over who is right", "May withdraw when unappreciated"],
+    "growthSupports": ["Create explicit shared agreements", "Maintain separate and shared goals", "Use consent-based advice", "Practice appreciation", "Repair conflict with behaviour-specific accountability"]
+  },
+  "workAndCareer": {
+    "balanced": ["May engage with clear ownership and meaningful autonomy", "Can initiate projects and improve systems", "Accepts visible responsibility", "Advocates for direction", "Uses leadership to enable contribution"],
+    "underPressure": ["May resist supervision reflexively", "May centralize decisions", "May identify self-worth with title or achievement", "May move before alignment", "May overwork to protect status"],
+    "growthSupports": ["Clarify decision rights", "Lead bounded experiments", "Request outcome-based feedback", "Delegate with clear standards", "Protect recovery and non-work identity"]
+  },
+  "moneyAndResources": {
+    "balanced": ["Uses resources to support autonomy and meaningful goals", "Tracks financial reality", "Negotiates clearly", "Builds resilience through reserves", "Separates confidence from evidence of risk"],
+    "underPressure": ["May take concentrated risks to recover status", "May spend for visible success", "May reject independent advice", "May conceal losses", "May use money as a measure of worth"],
+    "growthSupports": ["Use written budgets and maximum-loss limits", "Apply cooling-off periods", "Diversify where appropriate", "Seek qualified independent review", "Separate symbolic purchases from practical needs"]
+  },
+  "stressResponse": {
+    "balanced": ["Identifies controllable and uncontrollable factors", "Uses action proportionate to the problem", "Requests support", "Revises plans", "Returns to sustainable routines"],
+    "underPressure": ["May escalate control", "May become impatient or rigid", "May refuse help", "May overwork", "May react defensively to criticism"],
+    "growthSupports": ["Reduce immediate activation", "Name the trigger and threatened need", "Choose repair, revision, delegation or rest", "Use sleep and recovery routines", "Review patterns after the stress has passed"]
+  },
+  "growthNeeds": [
+    "Self-direction combined with interdependence",
+    "Listening and shared influence",
+    "Calibrated rather than image-protective confidence",
+    "Delegation and credit sharing",
+    "Emotional naming and proportionate response",
+    "Evidence-based risk assessment",
+    "Flexible persistence and stop criteria",
+    "Sustainable ambition and recovery",
+    "Repair after mistakes or conflict",
+    "Self-worth beyond achievement, title and recognition"
+  ],
+  "sadhanaThemes": [
+    {
+      "themeId": "M1-SADHANA-01",
+      "title": "Initiative with Reflection",
+      "purpose": "Support timely action without impulsivity or unnecessary delay.",
+      "practiceCategories": ["decision pause", "implementation intention", "weekly review"]
+    },
+    {
+      "themeId": "M1-SADHANA-02",
+      "title": "Strong Interdependence",
+      "purpose": "Combine autonomy with support, collaboration and mutual influence.",
+      "practiceCategories": ["help seeking", "delegation", "shared agreements"]
+    },
+    {
+      "themeId": "M1-SADHANA-03",
+      "title": "Calm and Ethical Leadership",
+      "purpose": "Use authority for clarity, accountability, dignity and development of others.",
+      "practiceCategories": ["listening", "dissent check", "credit sharing", "after-action review"]
+    },
+    {
+      "themeId": "M1-SADHANA-04",
+      "title": "Confidence without Defensiveness",
+      "purpose": "Build evidence-based confidence that can receive feedback and tolerate imperfection.",
+      "practiceCategories": ["evidence log", "feedback reflection", "self-compassion", "repair"]
+    },
+    {
+      "themeId": "M1-SADHANA-05",
+      "title": "Sustainable Achievement",
+      "purpose": "Pursue meaningful goals with recovery, flexibility and identity beyond outcomes.",
+      "practiceCategories": ["values-based goals", "stop rules", "recovery planning", "process metrics"]
+    }
+  ],
+  "evidence": {
+    "traditionSupport": "moderate-strong",
+    "scientificBirthNumberLink": "not-established",
+    "sourceNotes": "Broad Number 1 themes recur across modern numerology traditions, but source families are often derivative and do not establish predictive validity. Psychology references define constructs and safety boundaries only.",
+    "references": [
+      {
+        "sourceType": "numerology-tradition",
+        "publisher": "Internet Archive",
+        "title": "Cheiro's Book of Numbers",
+        "url": "https://archive.org/details/cheirosbookofnumbers",
+        "usage": "Traditional Number 1, date-series and solar correspondence context."
+      },
+      {
+        "sourceType": "psychology-boundary",
+        "publisher": "Self-Determination Theory",
+        "title": "Theory Overview",
+        "url": "https://selfdeterminationtheory.org/theory/",
+        "usage": "Defines autonomy as volition and self-endorsement; does not validate numerology."
+      },
+      {
+        "sourceType": "psychology-boundary",
+        "publisher": "American Psychological Association",
+        "title": "Self-efficacy",
+        "url": "https://dictionary.apa.org/self-efficacy",
+        "usage": "Construct boundary for domain-specific capability beliefs."
+      },
+      {
+        "sourceType": "comparison",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Numerology",
+        "url": "https://www.britannica.com/topic/numerology",
+        "usage": "General historical and definitional context for numerology."
+      }
+    ]
+  },
+  "safety": {
+    "appDisclaimer": "Moolank interpretations are traditional reflection prompts, not scientific personality tests or predictions. Keep what is useful, reject what does not fit, and base important decisions on evidence, context and qualified advice.",
+    "prohibitedClaims": ["Medical or psychiatric diagnosis", "Criminality, addiction or moral-worth inference", "Guaranteed wealth, fame, authority or career success", "Certain marriage, loyalty or compatibility outcomes", "Accident, lifespan, disease or legal predictions", "Financial, medical or legal action based on numerology", "Fixed negative labels such as toxic, narcissistic or unstable"],
+    "questionnaireBoundary": "Future questionnaire responses describe current self-reported patterns and development priorities. They do not prove the Moolank profile, diagnose a condition or establish birth-number validity."
+  },
+  "lastReviewed": "2026-07-15"
+}
